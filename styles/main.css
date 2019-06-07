@@ -10,6 +10,8 @@ body{
     font-size: 62.5%;
 }
 
+/*Footer*/
+
 header{
     background-color: #F47373;
 }
@@ -39,4 +41,24 @@ header .nav .navigation .listNavigation{
 
 header .nav .navigation .listNavigation li{
     padding: 15px;
+}
+
+/*Main*/
+
+/*Footer*/
+
+footer{
+    background-color: #F47373;
+    color: white;
+}
+
+footer div.contentFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+footer .contentFooter .contentFooterWeekInfos{
+    display: flex;
 }
