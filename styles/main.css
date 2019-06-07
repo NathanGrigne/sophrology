@@ -21,7 +21,7 @@ header nav.nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80vw;
+    width: 75vw;
     height: 8vh;
     margin: 0 auto;
 }
@@ -45,6 +45,10 @@ header .nav .navigation .listNavigation li{
 
 /*Main*/
 
+main .slider{
+    height: 70vh;
+}
+
 /*Footer*/
 
 footer{
@@ -57,6 +61,7 @@ footer div.contentFooter{
     justify-content: space-between;
     margin: 0 auto;
     width: 80vw;
+    height: 40vh;
 }
 
 footer .contentFooter .contentFooterWeekInfos{
