@@ -45,7 +45,14 @@ header .nav .navigation .listNavigation{
 }
 
 header .nav .navigation .listNavigation li{
-    padding: 15px;
+    padding-top: 27.5px;
+    padding-bottom: 27.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header .nav .navigation .listNavigation li:hover{
+    background-color: rgb(247, 102, 102);
 }
 
 header .nav .navigation .listNavigation li a{
@@ -69,11 +76,29 @@ footer{
 footer div.contentFooter{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     width: 80vw;
-    height: 40vh;
+    height: 262px;
+}
+
+footer div.contentFooter .contentFooterInfos{
+    font-size: 2em;
 }
 
 footer .contentFooter .contentFooterWeekInfos{
     display: flex;
+}
+
+footer .contentFooter .contentFooterWeekInfos ul{
+    list-style: none;
+}
+
+footer .contentFooter .contentFooterWeekInfos ul li{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+footer div.contentFooter .contentFooterSocialNetwork{
+    font-size: 2em;
 }
