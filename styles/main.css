@@ -10,7 +10,7 @@ body{
     font-size: 62.5%;
 }
 
-/*Footer*/
+/*Header*/
 
 header{
     background-color: #F47373;
@@ -101,4 +101,36 @@ footer .contentFooter .contentFooterWeekInfos ul li{
 
 footer div.contentFooter .contentFooterSocialNetwork{
     font-size: 2em;
+}
+
+/* Responsive*/
+
+@media screen and (min-width: 770px) and (max-width: 1024px){
+
+    /*Header*/
+
+    header nav.nav{
+        width: 90vw;
+    }
+
+    /*Main*/
+
+    /*Footer*/
+
+    footer div.contentFooter{
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px){
+
+    /*Header*/
+    
+    header nav.nav{
+        width: 90vw;
+    }
+
+    /*Main*/
+
+    /*Footer*/
 }
