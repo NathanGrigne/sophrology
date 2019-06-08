@@ -22,11 +22,16 @@ header nav.nav{
     align-items: center;
     justify-content: space-between;
     width: 75vw;
-    height: 8vh;
+    height: 77px;
     margin: 0 auto;
 }
 
-header .nav .logoName h1{
+header .nav .logoName a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header .nav .logoName a h1{
     margin: 0;
     font-size: 2.5em;
     font-weight : bold;
@@ -41,6 +46,11 @@ header .nav .navigation .listNavigation{
 
 header .nav .navigation .listNavigation li{
     padding: 15px;
+}
+
+header .nav .navigation .listNavigation li a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /*Main*/
