@@ -64,22 +64,68 @@ header .nav .navigation .listNavigation li a{
 
 /*Sophrology Page*/
 
-.main img.imgTitle{
-    width: 100%;
-    height: auto;
+.main .imgPresentation{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/sophrology.png");
+    background-size: 100%;
+    overflow: hidden;
     position: relative;
 }
 
-.main .titleSophrology{
-    position: absolute;
-    left: 12vw;
-    bottom: 270px;
-    text-transform: uppercase;
-    font-size: 3.5rem;
+.main .imgPresentation h2{
     color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
+.main .imgPresentationHypnose{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/hypnose.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .imgPresentationHypnose h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
+.main .imgPresentationConscience{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/pleine\ conscience.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .imgPresentationConscience h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
 }
 
 /*What Is*/
+
+.main .border30{
+    width: 32vw;
+    height: 5px;
+    background-color: #F47373;
+    margin-left: -20vw;
+}
 
 .main .whatIs{
     width: 60vw;
@@ -94,6 +140,7 @@ header .nav .navigation .listNavigation li a{
 .main .whatIs h3.whatIsQuestion{
     font-weight: bold;
     font-size: 2rem; 
+    margin-bottom: 2px;
 }
 
 .main .whatIs p{
@@ -109,18 +156,38 @@ header .nav .navigation .listNavigation li a{
 }
 
 .main .why{
+    width: 80vw;
+    margin:0 auto;
+}
+
+.main .why p{
+    font-size: 1.1rem;
+}
+
+.main .why h3.whyQuestionHypnose{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main .why .listWhy{
+    list-style: none;
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+.main .whySophrology{
     display: flex;
     justify-content: space-between;
     width: 70vw;
     margin:0 auto;
 }
 
-.main .why h4.titleWhy{
+.main .whySophrology h4.titleWhy{
     color: #F47373;
     font-size: 1.1rem;
 }
 
-.main .why .listWhy{
+.main .whySophrology .listWhy{
     list-style: none;
     font-size: 1.1rem;
     padding: 0;
@@ -136,6 +203,7 @@ header .nav .navigation .listNavigation li a{
 .main .who h3.whoQuestion{
     font-weight: bold;
     font-size: 2rem; 
+    margin-bottom: 2px;
 }
 
 .main .who p{
@@ -160,20 +228,11 @@ header .nav .navigation .listNavigation li a{
 
 /*Hypnose Page*/
 
-.main .whyHypnose{
-    width: 80vw;
-    margin:0 auto;
-}
 
-.main .whyHypnose h3.whyQuestionHypnose{
-    font-size: 2rem;
-    font-weight: bold;
-}
+/*Conscience Page*/
 
-.main .whyHypnose .listWhy{
-    list-style: none;
-    font-size: 1.1rem;
-    padding: 0;
+.main .why .advertissement{
+    color: #F47373;
 }
 
 /*Footer*/
