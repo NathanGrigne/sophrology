@@ -10,6 +10,10 @@ body{
     font-size: 62.5%;
 }
 
+.hide{
+    display:none;
+}
+
 /*Header*/
 
 header{
@@ -61,6 +65,77 @@ header .nav .navigation .listNavigation li a{
 }
 
 /*Main*/
+
+/*Slider*/
+
+.slider{
+    width:100%;
+    height: 80vh;
+    margin:0 auto;
+    overflow: hidden;
+    position:relative;
+}
+
+.sliderContainer{
+    display:flex;
+    flex-wrap: nowrap;
+    transition: all ease-in 0.8s;
+}
+
+.card{
+    width:100%;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrowPrev{
+    position:absolute;
+    left:2vw;
+    top:50%;
+    width:48px;
+    height: 48px;
+    transform: rotate(180deg);
+    background-image: url("../images/arrowSlider.png");
+    display:none;
+}
+
+.arrowNext{
+    position:absolute;
+    right:2vw;
+    top:50%;
+    width:48px;
+    height: 48px;
+    background-image: url("../images/arrowSlider.png");
+    display:none;
+}
+
+.is-visible{
+    display:block;
+}
+
+/*HomePage*/
+
+.main .homePageInfos h1.titleHomePage{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.main .homePageInfos{
+    width: 68vw;
+    margin:0 auto;
+    font-size: 1.1rem;
+}
+
+.main .homePageInfos p{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+  
 
 /*Sophrology Page*/
 
@@ -234,6 +309,74 @@ header .nav .navigation .listNavigation li a{
 .main .why .advertissement{
     color: #F47373;
 }
+
+/*About Page*/
+
+.main .aboutFirst{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .aboutFirst ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main .aboutFirst ul li{
+    padding-top: 2vh;
+    font-size: 1.1rem;
+}
+
+.main .specialist{
+    color: #F47373;
+}
+
+.main .aboutSecond{
+    font-size: 1.1rem;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.main .aboutSecond ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main p.boldText{
+    font-weight: bold;
+}
+
+.main p.colorText{
+    color: #F47373;
+}
+
+/*Contact Page*/
+
+.main .borderMid{
+    width: 100%;
+    height: 3px;
+    background-color: #F47373;
+}
+
+.main .contactInfos{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+.main h2.titleContact{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main h4.textContact{
+    font-size: 1.5rem;
+}
+
 
 /*Footer*/
 
