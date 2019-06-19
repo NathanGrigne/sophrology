@@ -362,7 +362,36 @@ header .nav .navigation .listNavigation li a{
 }
 
 .main .specialist{
+    font-weight: bold;
+}
+
+.main .price{
     color: #F47373;
+}
+
+.main .borderTarif{
+    width: 40vw;
+    height: 3px;
+    background-color: #F47373;
+    margin-left: 10vw
+}
+
+.main .grayText{
+    color: gray;
+}
+
+.main h3.price{
+    font-size: 1.8rem;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.main .pagePrice{
+    font-size: 1.1rem;
+    width: 80vw;
+    margin:0 auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
 }
 
 .main .aboutSecond{
