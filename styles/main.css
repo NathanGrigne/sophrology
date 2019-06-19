@@ -45,6 +45,7 @@ header .nav .navigation .listNavigation{
     display: flex;
     list-style: none;
     font-size: 1.7em;
+    font-weight: 450;
     margin: 0;
 }
 
@@ -137,13 +138,13 @@ header .nav .navigation .listNavigation li a{
 }
   
 
-/*Sophrology Page*/
+/*Images Presentations*/
 
 .main .imgPresentation{
     width: 100vw;
     height: 200px;
     background-image: url("../images/sophrology.png");
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 }
@@ -161,7 +162,7 @@ header .nav .navigation .listNavigation li a{
     width: 100vw;
     height: 200px;
     background-image: url("../images/hypnose.jpg");
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 }
@@ -179,7 +180,7 @@ header .nav .navigation .listNavigation li a{
     width: 100vw;
     height: 200px;
     background-image: url("../images/pleine\ conscience.jpg");
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 }
