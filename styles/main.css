@@ -3,11 +3,21 @@ title = Montserrat bold
 text = Marcellus*/
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Marcellus', serif;
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+}
+
+p{
+    font-family: 'Marcellus', serif;
+}
+
+li{
+    font-family: 'Marcellus', serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hide{
@@ -56,13 +66,13 @@ header .nav .navigation .listNavigation li{
     padding-right: 15px;
 }
 
-header .nav .navigation .listNavigation li:hover{
-    background-color: rgb(247, 102, 102);
-}
-
 header .nav .navigation .listNavigation li a{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+header .nav .navigation .listNavigation li a.current{
+    border-bottom: #FFFFFF solid 1px;
 }
 
 /*Main*/
@@ -71,7 +81,7 @@ header .nav .navigation .listNavigation li a{
 
 .slider{
     width:100%;
-    height: 80vh;
+    height: 600px;
     margin:0 auto;
     overflow: hidden;
     position:relative;
@@ -85,7 +95,57 @@ header .nav .navigation .listNavigation li a{
 
 .card{
     width:100%;
+    height: 600px;
+    position: relative;
 }
+
+.fondue{
+    width: 100vw;
+    height: 100%;
+    background-color: #00000060;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .infosSlider{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    font-size: 1.1rem;
+    color: #FFFFFF; 
+    display: flex; 
+    align-items: center;
+}
+
+.card .infosSlider p{
+    width: 20vw;
+}
+
+.card .titleSlider{
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.card .button{
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.card .infosSlider a{
+    text-decoration: none;
+    color: #FFFFFF;
+} 
 
 .card img{
     width: 100%;
@@ -146,18 +206,14 @@ header .nav .navigation .listNavigation li a{
     margin-top: 10vh;
 }
 
-.main .imgInfosSophroHypnoseConscience{
+.main .imgInsta{
     width: 300px;
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
 
-.main .infosSophroHypnoseConscience img{
-    width: 100%;
-    height: 100%;
-}
-
-.main .infosSophroHypnoseConscience h2{
+.main .imgInsta h2{
     position: absolute;
     bottom: 10px;
     left:5px;
@@ -165,7 +221,7 @@ header .nav .navigation .listNavigation li a{
     font-size: 1.1rem;
 }
 
-.main .imgInfosSophroHypnoseConscience.borderColor{
+.main .imgInsta.borderColor{
     border: 3px solid #F47373;
     box-sizing: border-box;
 }
@@ -258,10 +314,22 @@ header .nav .navigation .listNavigation li a{
 
 /*Why*/
 
+.main .border10{
+    width: 30vw;
+    height: 5px;
+    background-color: #F47373;
+}
+.main .border50{
+    width: 50vw;
+    height: 5px;
+    background-color: #F47373;
+}
+
 .main h3.whyQuestion{
     font-weight: bold;
     font-size: 2rem; 
     margin-left: 10vw;
+    margin-bottom: 3px;
 }
 
 .main .why{
@@ -273,9 +341,11 @@ header .nav .navigation .listNavigation li a{
     font-size: 1.1rem;
 }
 
-.main .why h3.whyQuestionHypnose{
+.main h3.whyQuestionHypnose{
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 10vw;
 }
 
 .main .why .listWhy{
@@ -326,9 +396,10 @@ header .nav .navigation .listNavigation li a{
     margin-left: 10vw;
 }
 
-.main .session h3.sessionQuestion{
+.main h3.sessionQuestion{
     font-weight: bold;
     font-size: 2rem;
+    margin-left: 10vw;
 }
 
 .main .session p{
@@ -454,11 +525,11 @@ footer div.contentFooter{
     align-items: center;
     margin: 0 auto;
     width: 80vw;
-    height: 262px;
+    height: 180px;
 }
 
 footer div.contentFooter .contentFooterInfos{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 footer .contentFooter .contentFooterWeekInfos{
@@ -471,11 +542,11 @@ footer .contentFooter .contentFooterWeekInfos ul{
 
 footer .contentFooter .contentFooterWeekInfos ul li{
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 footer div.contentFooter .contentFooterSocialNetwork{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 /* Responsive*/
