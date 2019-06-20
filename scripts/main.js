@@ -1,4 +1,4 @@
-const color = document.querySelectorAll('imgInsta')
+const color = document.querySelectorAll('.imgInsta')
 
 for (let i=0; i<color.length; i++){
     color[i].addEventListener(
