@@ -213,10 +213,10 @@ header .nav .navigation .listNavigation li a.current{
 
 .main .imgInsta h2{
     position: absolute;
-    bottom: 10px;
-    left:5px;
+    bottom: -5px;
+    left:20px;
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .main .imgInsta.borderColor{
@@ -365,6 +365,8 @@ header .nav .navigation .listNavigation li a.current{
 .main .whatIs{
     width: 60vw;
     margin: 0 auto;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .main .whatIs .adWhatIs{
@@ -405,6 +407,7 @@ header .nav .navigation .listNavigation li a.current{
 .main .why{
     width: 80vw;
     margin:0 auto;
+    margin-bottom: 10vh;
 }
 
 .main .why p{
@@ -447,6 +450,8 @@ header .nav .navigation .listNavigation li a.current{
 .main .who{
     width: 60vw;
     margin:0 auto;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .main .who h3.whoQuestion{
@@ -464,6 +469,7 @@ header .nav .navigation .listNavigation li a.current{
 .main .session{
     width: 80vw;
     margin:0 auto;
+    margin-bottom: 10vh;
 }
 
 .main h3.sessionQuestion{
