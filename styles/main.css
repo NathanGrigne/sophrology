@@ -607,6 +607,12 @@ header .nav .navigation .listNavigation li a.current{
     color: #000000;
 }
 
+.main .map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
 /*Bubble Page*/
 
 .main .infosBubble{
