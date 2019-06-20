@@ -204,6 +204,8 @@ header .nav .navigation .listNavigation li a.current{
 .main .infosSophroHypnoseConscience{
     display: flex;
     justify-content: space-around;
+    width : 85vw;
+    margin: 0 auto;
     margin-bottom: 10vh;
     margin-top: 10vh;
 }
@@ -391,7 +393,7 @@ header .nav .navigation .listNavigation li a.current{
 /*Why*/
 
 .main .border10{
-    width: 30vw;
+    width: 22vw;
     height: 5px;
     background-color: #F47373;
 }
@@ -648,7 +650,7 @@ footer div.contentFooter{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 80vw;
+    width: 75vw;
     height: 180px;
 }
 
@@ -698,7 +700,7 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 770px){
+@media screen and (max-width: 770px){
 
     /*Header*/
     
@@ -710,3 +712,4 @@ footer div.contentFooter .contentFooterSocialNetwork{
 
     /*Footer*/
 }
+
