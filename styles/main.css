@@ -727,6 +727,10 @@ footer div.contentFooter .contentFooterSocialNetwork{
 
     /*Main*/
 
+    .infosSophroHypnoseConscience{
+        flex-flow: row wrap;
+    }
+
     /*Footer*/
 }
 
