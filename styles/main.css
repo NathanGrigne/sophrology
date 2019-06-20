@@ -692,6 +692,7 @@ footer .contentFooter .contentFooterWeekInfos ul{
 footer .contentFooter .contentFooterWeekInfos ul li{
     font-weight: bold;
     font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer div.contentFooter .contentFooterSocialNetwork{
