@@ -274,6 +274,24 @@ header .nav .navigation .listNavigation li a.current{
     position: relative;
 }
 
+.main .imgPresentationBubble h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
+.main .imgPresentationBubble{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/slider2.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
 .main .imgPresentationConscience h2{
     color: #FFFFFF;
     font-size: 2rem;
