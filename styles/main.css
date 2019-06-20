@@ -370,6 +370,13 @@ header .nav .navigation .listNavigation li a.current{
     margin-left: -20vw;
 }
 
+.main .border30_2{
+    width: 30.5vw;
+    height: 5px;
+    background-color: #F47373;
+    margin-left: -20vw;
+}
+
 .main .whatIs{
     width: 60vw;
     margin: 0 auto;
@@ -400,7 +407,7 @@ header .nav .navigation .listNavigation li a.current{
     background-color: #F47373;
 }
 .main .border50{
-    width: 50vw;
+    width: 42vw;
     height: 5px;
     background-color: #F47373;
 }
@@ -483,6 +490,7 @@ header .nav .navigation .listNavigation li a.current{
 .main h3.sessionQuestion{
     font-weight: bold;
     font-size: 2rem;
+    margin : 0;
     margin-left: 10vw;
 }
 
