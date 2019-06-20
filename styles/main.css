@@ -16,6 +16,10 @@ li{
     font-family: 'Marcellus', serif;
 }
 
+a{
+    font-family: 'Marcellus', serif;   
+}
+
 h1,h2,h3,h4,h5{
     font-family: 'Montserrat', sans-serif;
 }
@@ -596,6 +600,11 @@ header .nav .navigation .listNavigation li a.current{
 
 .main h4.textContact{
     font-size: 1.5rem;
+}
+
+.main h4.textContact a{
+    text-decoration: none;
+    color: #000000;
 }
 
 /*Bubble Page*/
