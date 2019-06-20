@@ -52,7 +52,7 @@ header .nav .logoName a{
 header .nav .logoName a h1{
     margin: 0;
     font-size: 2.5em;
-    font-weight : bold;
+    font-weight: bold;
 }
 
 header .nav .navigation .listNavigation{
@@ -73,6 +73,7 @@ header .nav .navigation .listNavigation li{
 header .nav .navigation .listNavigation li a{
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 header .nav .navigation .listNavigation li a.current{
@@ -149,6 +150,7 @@ header .nav .navigation .listNavigation li a.current{
 .card .infosSlider a{
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: bold;
 } 
 
 .card img{
@@ -204,8 +206,8 @@ header .nav .navigation .listNavigation li a.current{
 .main .infosSophroHypnoseConscience{
     display: flex;
     justify-content: space-around;
-    width : 85vw;
-    margin: 0 auto;
+    width: 85vw;
+    margin:0 auto;
     margin-bottom: 10vh;
     margin-top: 10vh;
 }
@@ -609,6 +611,12 @@ header .nav .navigation .listNavigation li a.current{
     color: #000000;
 }
 
+.main .map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
 /*Bubble Page*/
 
 .main .infosBubble{
@@ -650,7 +658,7 @@ footer div.contentFooter{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 75vw;
+    width: 60vw;
     height: 180px;
 }
 
