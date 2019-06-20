@@ -125,7 +125,7 @@ header .nav .navigation .listNavigation li a.current{
 .card .titleSlider{
     position: absolute;
     right: 15%;
-    bottom: 35%;
+    bottom: 20%;
     color: #FFFFFF;
     font-size: 3rem;
 }
@@ -199,9 +199,7 @@ header .nav .navigation .listNavigation li a.current{
 
 .main .infosSophroHypnoseConscience{
     display: flex;
-    justify-content: space-between;
-    width: 80vw;
-    margin:0 auto;
+    justify-content: space-around;
     margin-bottom: 10vh;
     margin-top: 10vh;
 }
@@ -301,6 +299,60 @@ header .nav .navigation .listNavigation li a.current{
     margin: 0;
 }
 
+.main .imgPresentationContact{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .imgPresentationContact h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
+.main .imgPresentationPrice{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/price.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .imgPresentationPrice h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
+.main .imgPresentationAbout{
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.main .imgPresentationAbout h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin: 0;
+}
+
 /*What Is*/
 
 .main .border30{
@@ -375,7 +427,7 @@ header .nav .navigation .listNavigation li a.current{
 .main .whySophrology{
     display: flex;
     justify-content: space-between;
-    width: 70vw;
+    width: 80vw;
     margin:0 auto;
 }
 
@@ -394,7 +446,7 @@ header .nav .navigation .listNavigation li a.current{
 
 .main .who{
     width: 60vw;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
 .main .who h3.whoQuestion{
@@ -410,8 +462,8 @@ header .nav .navigation .listNavigation li a.current{
 /*Session*/
 
 .main .session{
-    width: 60vw;
-    margin-left: 10vw;
+    width: 80vw;
+    margin:0 auto;
 }
 
 .main h3.sessionQuestion{
@@ -437,7 +489,11 @@ header .nav .navigation .listNavigation li a.current{
 
 .main .aboutFirst{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 60vw;
+    margin:0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .main .aboutFirst ul{
@@ -510,6 +566,7 @@ header .nav .navigation .listNavigation li a.current{
     width: 100%;
     height: 3px;
     background-color: #F47373;
+    margin-bottom: 5vh;
 }
 
 .main .contactInfos{
@@ -518,6 +575,12 @@ header .nav .navigation .listNavigation li a.current{
     text-align: center;
     margin-bottom: 10vh;
     margin-top: 10vh;
+}
+
+.main a.contactLink{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
 }
 
 .main h2.titleContact{
@@ -529,6 +592,34 @@ header .nav .navigation .listNavigation li a.current{
     font-size: 1.5rem;
 }
 
+/*Bubble Page*/
+
+.main .infosBubble{
+    width: 60vw;
+    margin:0 auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.main .infosBubble ul{
+    padding: 0;
+    list-style: none;
+}
+
+.main .infosBubble ul li{
+    font-size: 1.1rem;
+}
+
+.main h4.titleBubble{
+    color: #F47373;
+    font-size: 1.1rem;
+}
+
+.main a.linkBubble{
+    text-decoration: none;
+    color: #F47373;
+    font-size: 1.3rem;
+}
 
 /*Footer*/
 
@@ -548,6 +639,12 @@ footer div.contentFooter{
 
 footer div.contentFooter .contentFooterInfos{
     font-size: 1.8em;
+}
+
+footer div.contentFooter .contentFooterInfos a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3rem;;
 }
 
 footer .contentFooter .contentFooterWeekInfos{
