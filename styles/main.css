@@ -719,7 +719,7 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 500px){
 
     /*Header*/
     
@@ -728,6 +728,11 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 
     /*Main*/
+
+    .main .imgPresentation h2{
+        left: 80px;
+    }
+    /* Homepage */
 
     .card .infosSlider{
         display: flex;
@@ -758,6 +763,24 @@ footer div.contentFooter .contentFooterSocialNetwork{
 
     .homePageInfos{
         text-align: center;
+    }
+
+    /* Border */
+
+    .main .border10{
+        width: 55vw;
+    }
+    .main .border30{
+        width: 65vw;
+    }
+    .main .border30_2{
+        width: 60vw;
+    }
+    .main .border50{
+        width: 95vw;
+    }
+    .main h3.sessionQuestion {
+        font-size: 23px;
     }
 
     /*Footer*/
