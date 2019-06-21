@@ -25,9 +25,9 @@ constructor(selector, sliding)
     this.sliding = sliding
     this.currentPosition=0
     this.sliderContainer
-    // pour savoir la largeur d'un item
+
     this.sliderCardWidth=this.slider.querySelector('.card').offsetWidth;
-    // pour savoir combien il y a d'items
+
     this.numberItems = this.slider.querySelectorAll('.card').length
 
     this.arrowNext
@@ -42,7 +42,7 @@ constructor(selector, sliding)
 init()
 {
 
-    // ajout de la div intermédiaire
+
     this.sliderContainer= document.createElement('div')
     this.sliderContainer.classList.add('sliderContainer')
     this.sliderContainer.style.width= this.numberItems*this.sliderCardWidth +'px'
@@ -50,7 +50,7 @@ init()
     this.slider.innerHTML= '';
     this.slider.appendChild(this.sliderContainer)
 
-    // ajout des fleches
+
 
     this.arrowNav = document.createElement('div')
     this.arrowNav.classList.add('arrowNav')
@@ -103,5 +103,3 @@ hideArrow()
   
   
 let mySlide = new Slider('.slider',1)
-  
-
