@@ -718,7 +718,7 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 900px){
 
     /*Header*/
     
@@ -728,8 +728,31 @@ footer div.contentFooter .contentFooterSocialNetwork{
 
     /*Main*/
 
+    .card .infosSlider{
+        display: flex;
+        flex-direction: column;
+        bottom: 39%;
+        right: 0%;
+    }
+    .card .infosSlider p{
+        text-align: center;
+        width: 80%;
+    }
+    .card .titleSlider{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        width: 68%;
+    }
+    .card .button {
+        margin: 0 auto;
+    }
+
     .infosSophroHypnoseConscience{
         flex-flow: row wrap;
+    }
+    .imgInsta{
+        margin-top: 10px;
     }
 
     /*Footer*/
