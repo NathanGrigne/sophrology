@@ -1,6 +1,6 @@
 /* pink code #F47373 
 title = Montserrat bold
-text = Marcellus*/
+text = Lora*/
 
 body{
     margin: 0;
@@ -9,15 +9,15 @@ body{
 }
 
 p{
-    font-family: 'Marcellus', serif;
+    font-family: 'Lora', serif;
 }
 
 li{
-    font-family: 'Marcellus', serif;
+    font-family: 'Lora', serif;
 }
 
 a{
-    font-family: 'Marcellus', serif;   
+    font-family: 'Lora', serif;   
 }
 
 h1,h2,h3,h4,h5{
