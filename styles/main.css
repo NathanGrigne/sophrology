@@ -134,6 +134,7 @@ header .nav .navigation .listNavigation li a.current{
     bottom: 20%;
     color: #FFFFFF;
     font-size: 3rem;
+    width: 30.2vw;
 }
 
 .card .button{
@@ -718,7 +719,7 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 850px){
 
     /*Header*/
     
@@ -756,5 +757,8 @@ footer div.contentFooter .contentFooterSocialNetwork{
     }
 
     /*Footer*/
+    footer div.contentFooter{
+        width: 90vw;
+    }
 }
 
