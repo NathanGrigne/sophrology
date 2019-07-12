@@ -86,8 +86,8 @@ header .nav .navigation .listNavigation li a.current{
 /*Slider*/
 
 .slider{
-    width:100%;
-    height: 390px;
+    width: 100%;
+    height: 478px;
     margin:0 auto;
     overflow: hidden;
     position:relative;
@@ -101,14 +101,14 @@ header .nav .navigation .listNavigation li a.current{
 
 .card{
     width:100%;
-    height: 390px;
+    height: 478px;
     position: relative;
 }
 
 .fondue{
     width: 100vw;
-    height: 100%;
-    background-color: #00000060;
+    height: 478px;
+    background-color: #0000004D;
     position: absolute;
     top: 0;
     left: 0;
@@ -116,8 +116,8 @@ header .nav .navigation .listNavigation li a.current{
 
 .card .infosSlider{
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    right: 100px;
+    bottom: 30px;
     font-size: 1.1rem;
     color: #FFFFFF; 
     display: flex; 
@@ -125,16 +125,16 @@ header .nav .navigation .listNavigation li a.current{
 }
 
 .card .infosSlider p{
-    width: 20vw;
+    width: 400px;
 }
 
 .card .titleSlider{
     position: absolute;
-    right: 15%;
-    bottom: 20%;
+    right: 352px;
+    bottom: 80px;
     color: #FFFFFF;
-    font-size: 3rem;
-    width: 30.2vw;
+    font-size: 2.6rem;
+    width: 400px;
 }
 
 .card .button{
@@ -157,11 +157,10 @@ header .nav .navigation .listNavigation li a.current{
 
 .card img{
     width: 100%;
-    height: 100%;
 }
 
 .arrowPrev{
-    position:absolute;
+    position: absolute;
     left:2vw;
     top:50%;
     width:48px;
@@ -792,8 +791,12 @@ footer div.contentFooter .contentFooterSocialNetwork{
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        flex-flow: row wrap;
     }
+
+    footer .contentFooter .contentFooterInfos h3{
+        margin:0;
+    }
+
     footer .contentFooterWeekInfos ul{
         margin: 0;
         padding: 0;
