@@ -756,8 +756,10 @@ footer div.contentFooter .contentFooterSocialNetwork{
     .infosSophroHypnoseConscience{
         flex-flow: row wrap;
     }
-    .imgInsta{
+    .main .imgInsta{
         margin-top: 10px;
+        width: 50px;
+        height: 50px;
     }
 
     .homePageInfos{
